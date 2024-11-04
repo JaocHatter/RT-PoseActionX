@@ -1,5 +1,5 @@
 PYTHON = python3
-ARGS = ?hdgcn
+ARGS = hdgcn
 MAIN = main.py
 SETUP = setup.py
 
