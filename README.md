@@ -63,15 +63,14 @@ All required packages are specified in the `setup.py` and can be installed using
 The project has the following structure:
 
 ```
+.
 ├── config
 │   └── hdgcn_conf.yaml
 ├── demo
-│   ├── DEMO.md
-│   └── saved_models
+│   └── user_demo.mp4
 ├── JointExtractor
 │   ├── Cargo.lock
 │   ├── Cargo.toml
-│   ├── input_dataset
 │   ├── output_dataset
 │   ├── pose_extractor.py
 │   ├── README.md
@@ -87,7 +86,12 @@ The project has the following structure:
 │   │   └── tools.py
 │   ├── HDGCN.py
 │   ├── __init__.py
-│   ├── load.py
+│   └── load.py
+├── output
+│   ├── hdgcn_model_epoch_12_beta.pt
+│   ├── hdgcn_model_epoch_34_beta.pt
+│   └── hdgcn_model_epoch_7_beta.pt
+├── save_demo.py
 ├── setup.py
 └── training_functions.py
 ```
