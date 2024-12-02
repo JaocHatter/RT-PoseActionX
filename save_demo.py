@@ -115,7 +115,7 @@ def draw_ntu_skeleton(image, joints):
     return image
 
 # Iniciar captura de video
-cap = cv2.VideoCapture(0)#"video/v_JumpingJack_g24_c03.avi"
+cap = cv2.VideoCapture("videos/v_BoxingPunchingBag_g02_c01.avi")
 
 if not cap.isOpened():
     print("No se puede abrir la cámara")
@@ -125,7 +125,7 @@ width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 fps = int(cap.get(cv2.CAP_PROP_FPS))
 
-output_filename = 'demo/user_demo.mp4'
+output_filename = 'demo/user_demo_1.mp4'
 fourcc = cv2.VideoWriter_fourcc(*'mp4v')
 out = cv2.VideoWriter(output_filename, fourcc, fps, (width, height))
 

@@ -1,7 +1,6 @@
 use std::process::Command;
 use std::thread;
 use std::fs;
-
 fn main() {
     let python_file = "pose_extractor.py";
     // paths to each class
