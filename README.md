@@ -167,7 +167,7 @@ You can test the trained model in real time using OpenCV and MediaPipe.
 2. **Run the Real-time Demo Script**
 
    ```bash
-   python demo/real_time_demo.py
+   python save_demo.py
    ```
 
    This script will:
