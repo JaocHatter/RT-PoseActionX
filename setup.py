@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
+# Install torch+cuda manually to avoid errors
 setup(
     name="poseactionx",
     version="0.1",
     packages=find_packages(),
     install_requires=[
-        "torch==2.4.1+cu118",
         "einops",
         "tqdm==4.66.5",
         "numpy==1.26.3",
