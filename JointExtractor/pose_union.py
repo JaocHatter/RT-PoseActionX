@@ -24,7 +24,7 @@ def consolidate_files(input_dir, output_data_file, output_labels_file):
     print(f"Union complete. Saved data to {output_data_file} and labels to {output_labels_file}")
 
 input_directory = "output_dataset"
-final_data_file = "final_joint.npy"
-final_labels_file = "final_labels.npy"
+final_data_file = "output_dataset/final_joint.npy"
+final_labels_file = "output_dataset/final_labels.npy"
 
 consolidate_files(input_directory, final_data_file, final_labels_file)
