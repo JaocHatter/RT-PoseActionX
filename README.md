@@ -10,6 +10,12 @@ Official PyTorch implementation aiming to provide multiple skeleton-based human 
 
 PoseActionX is a project focused on implementing various skeleton-based action recognition models for real-time use cases. The framework is designed to support multiple models, enabling users to train and deploy action recognition systems efficiently. While HDGCN is the only model implemented at the moment, the project structure allows for easy integration of additional models in the future.
 
+## UCF101 Videos as Demo
+![user_demo_0](https://github.com/user-attachments/assets/88993c17-abff-49a2-9349-c4a6b88e2949)
+![user_demo_1](https://github.com/user-attachments/assets/211def57-4d60-4196-9067-083bf90022f9)
+![user_demo_2](https://github.com/user-attachments/assets/15b6b567-db52-4ae0-8a76-4d3695d2ce76)
+
+
 # Installation
 
 ## Prerequisites
